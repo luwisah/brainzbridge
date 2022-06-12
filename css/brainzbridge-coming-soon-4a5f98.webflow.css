@@ -54,8 +54,8 @@
     display: block;
     overflow: visible;
     width: auto;
-    height: auto;
-    max-height: 600px;
+    height: 600px;
+    max-height: 1080px;
     margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
@@ -78,7 +78,8 @@
 
 @media screen and (max-width: 767px) {
   .html-embed-4 {
-    max-height: 500px;
+    height: 500px;
+    max-height: 1080px;
   }
 }
 
@@ -86,7 +87,8 @@
   .html-embed-4 {
     left: 0%;
     overflow: visible;
-    max-height: 400px;
+    height: 400px;
+    max-height: 1080px;
     min-height: auto;
     min-width: auto;
     text-align: center;
